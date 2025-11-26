@@ -44,7 +44,7 @@ transition: background-color 0.5s;
    cursor: pointer;
 }
 .sub-title{
-    
+    width: fit-content;
     font-size: 60px;
     font-weight: bold;
 line-height: 70px;
@@ -114,9 +114,25 @@ box-sizing: border-box;
     font-size: 15px;
     color: #030305;
 }
-@media (max-width: 360px){
-.price img{
-    display: none;
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .footer{
+ max-width: 100%;
+    }
+        
+body{
+    max-width: 100%;
 }
-
+.sub-title{
+  max-width: 100%;
+  
+}
+.price-input{
+    max-width: 100%;
+}
+.price-image{
+   display: none;
+}
 }
